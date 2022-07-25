@@ -1,6 +1,19 @@
-/* Font */
+/* OEM Font Embed */
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;900&display=swap');
+/* OEM Font Embed */
 
+
+
+/* OEM Font */
+.acs-wrapper { 
+font-family: "Nunito Sans", sans-serif;
+color: #00324f;
+}
+/* OEM Font */
+
+
+
+/* Heading Tags */
 .acs-h1, .acs-h2, .acs-h3, .acs-h4, .acs-h5, .acs-h6 {
 font-family: "Nunito Sans", sans-serif;
 font-weight: 200;
@@ -57,17 +70,37 @@ font-size: 1.4rem !important;
 font-size: 1.2rem !important;
 }
 }
+/* Heading Tags */
 
 
-.acs-wrapper { 
-font-family: "Nunito Sans", sans-serif;
-color: #00324f;
+
+/* OEM Font Variables */
+.honda-brand-xl {
+font-family: "Nunito Sans" !important; 
+font-weight: 200 !important;
+}
+
+.honda-brand-rg {
+font-family: "Nunito Sans" !important;
+font-weight: 400 !important;
+}
+
+.honda-brand-sb {
+font-family: "Nunito Sans" !important;
+font-weight: 600 !important;
+}
+
+.honda-brand-blk {
+font-family: "Nunito Sans" !important;
+font-weight: 900 !important;
 }
 
 .acs-bold {
 font-family: var(--bold-font);   
 font-weight: 900;
 }
+/* OEM Font Variables */
+
 
 
 /* Variables */
@@ -85,6 +118,7 @@ font-weight: 900;
 --dark: #2b2b2b;
 --bold-font: "Nunito Sans", sans-serif;
 }
+/* Variables */
 
 
 
@@ -104,6 +138,8 @@ color: var(--gray2)
 .acs-dark {
 color: var(--dark)
 }
+/* Text Colors */
+
 
 
 /* Accent Colors */
@@ -125,39 +161,52 @@ color: var(--accent5)
 .acs-accent6 {
 color: var(--accent6)
 }
+/* Accent Colors */
+
 
 
 /* BG Colors */
 .acs-bg-accent {
-background-color: var(--accent)
+--acs-bg-opacity: 1;
+background-color: var(--accent);
+background-color: rgba(42,124,192, var(--acs-bg-opacity))
 }
 .acs-bg-accent2 {
-background-color: var(--accent2)
+--acs-bg-opacity: 1;
+background-color: var(--accent2);
+background-color: rgba(12,50,79, var(--acs-bg-opacity))
 }
 .acs-bg-accent3 {
-background-color: var(--accent3)
+--acs-bg-opacity: 1;
+background-color: var(--accent3);
+background-color: rgba(228,37,37, var(--acs-bg-opacity))
 }
 .acs-bg-accent4 {
-background-color: var(--accent4)
+--acs-bg-opacity: 1;
+background-color: var(--accent4);
+background-color: rgba(19,68,107, var(--acs-bg-opacity))
 }
 .acs-bg-accent5 {
-background-color: var(--accent5)
+--acs-bg-opacity: 1;
+background-color: var(--accent5);
+background-color: rgba(98,199,255, var(--acs-bg-opacity))
 }
 .acs-bg-accent6 {
-background-color: var(--accent6)
-}
-.acs-bg-black {
-background-color: var(--black)
-}
-.acs-bg-white {
-background-color: var(--white)
+--acs-bg-opacity: 1;
+background-color: var(--accent6);
+background-color: rgba(22,72,111, var(--acs-bg-opacity))
 }
 .acs-bg-gray {
-background-color: var(--gray)
+--acs-bg-opacity: 1;
+background-color: var(--gray);
+background-color: rgba(245,245,245, var(--acs-bg-opacity))
 }
 .acs-bg-dark {
-background-color: var(--dark)
+--acs-bg-opacity: 1;
+background-color: var(--dark);
+background-color: rgba(43,43,43, var(--acs-bg-opacity))
 }
+/* BG Colors */
 
 
 
@@ -192,6 +241,7 @@ transition: .3s
 .acs-link-accent3:hover {
 color: var(--accent6) !important; 
 }
+/* Link Accent */
 
 
 
